@@ -1,0 +1,2 @@
+networkx>=2.8
+lxml>=4.9
