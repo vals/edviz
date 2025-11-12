@@ -12,14 +12,26 @@ A Python package for documenting, parsing, and visualizing complex experimental 
 
 ## Installation
 
+### From Source
+
 ```bash
-pip install edviz
+git clone https://github.com/vals/edviz.git
+cd edviz
+pip install -e .
 ```
 
 For optional visualization support:
 ```bash
-pip install edviz[viz]
+pip install -e ".[viz]"
 ```
+
+### From GitHub (without cloning)
+
+```bash
+pip install git+https://github.com/vals/edviz.git
+```
+
+**Note**: The package is not yet published to PyPI. Once published, you'll be able to install with `pip install edviz`.
 
 ## Quick Start
 
